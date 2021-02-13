@@ -1419,21 +1419,4 @@ CS Department Research Competition  (<span class="conference-shortcut">Research 
 	</div></div>
 	<div id="downlt"><div id="downrt"><div id="down"></div></div></div>
 
-	
-
-<script>mendeleyWebImporter = {
-  downloadPdfs(t) { return this._call('downloadPdfs', [t]); },
-  open() { return this._call('open', []); },
-  _call(methodName, methodArgs) {
-    const id = Math.random();
-    window.postMessage({ id, token: '0.43493530620156506', methodName, methodArgs }, 'http://researchers.lille.inria.fr');
-    return new Promise(resolve => {
-      const listener = window.addEventListener('message', event => {
-        const data = event.data;
-        if (typeof data !== 'object' || !('result' in data) || data.id !== id) return;
-        window.removeEventListener('message', listener);
-        resolve(data.result);
-      });
-    });
-  }
-};</script></body></html>
+	</body></html>
