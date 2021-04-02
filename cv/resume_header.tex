@@ -1,0 +1,58 @@
+\renewcommand{\categoryfont}{\sc}
+
+\def\Cplusplus{{\rm C\raise.5ex\hbox{\small ++}}}
+
+%
+% set the space used for category titles here:
+% use the same value for oddsidemargin and marginparwidth [the latter 
+% 		will be reset to account for marginparsep]
+% 
+\setlength{\oddsidemargin}{1in}
+\setlength{\marginparwidth}{1in}
+% 
+% calculate other dimensions [textwidth and evensidemargin] 
+% in function of oddsidemargin and marginparwidth: 
+% would be nicer to put in the class file...
+%
+\addtolength{\marginparwidth}{-\marginparsep}
+ \setlength{\evensidemargin}{\oddsidemargin}
+ \setlength{\textwidth}{\paperwidth}
+ \addtolength{\textwidth}{-2in}
+ \addtolength{\textwidth}{-2\oddsidemargin}
+ \addtolength{\textwidth}{\marginparwidth}
+ \addtolength{\textwidth}{\marginparsep}
+%
+%
+\setlength{\topmargin}{-0.5in}
+%
+%
+\renewcommand{\labelcitem}{$\diamond$}
+\renewcommand{\labelitemi}{$\cdot$}
+\newcommand{\first}{$1^{\mbox{\scriptsize st}}$\ }
+\newcommand{\second}{$2^{\mbox{\scriptsize nd}}$\ }
+\newcommand{\third}{$3^{\mbox{\scriptsize rd}}$\ }
+\newcommand{\fourth}{$4^{\mbox{\scriptsize th}}$\ }
+\newcommand{\fifth}{$5^{\mbox{\scriptsize th}}$\ }
+\newcommand{\sixth}{$6^{\mbox{\scriptsize th}}$\ }
+\newcommand{\nineth}{$9^{\mbox{\scriptsize th}}$\ }
+\newcommand{\comment}[1]{}
+
+
+\author{Michal Valko}
+% ------ Address --------------------------------------------------------
+
+\address{Inria Lille -- Nord Europe \\ \'Equipe SequeL, bureau A05\\
+	Parc Scientifique de la Haute Borne\\
+	40 avenue Halley\\
+	59650 Villeneuve d'Ascq, France\\		
+	}{
+	%67 Avenue du Peuple Belge, Appt 16\\
+	%59800 Lille, France\\
+%        Cell phone: \emph{please request}\\
+	%Cell EU: +421 (908) 191217 \\
+        % Cell USA: +1 (412) 499--3474\\
+	%\mbox{\small\tt }\\
+	\mbox{\small\tt http://researchers.lille.inria.fr/\~{}valko/}\\
+	\mbox{\small\tt michal.valko\,@\,inria.fr}\\
+	\mbox{\small\tt +33 3 59 57 7801}\\
+}
