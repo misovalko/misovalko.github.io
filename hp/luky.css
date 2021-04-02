@@ -1,0 +1,308 @@
+/* michal valko */
+/* page layout */
+
+.bibtitle { font-style:italic; }
+/* .bibbooktitle { font-weight:bold; } */
+
+html {
+	font-family : "Trebuchet MS", verdana, helvetica, arial, sans-serif;	
+	text-align: justify;
+	font-size: smaller;
+	background-color: #E7E6E6;  	
+	color: red;
+}
+
+div#menu .menulink a:hover {
+	color: black;
+	border-color: #294763;
+	background-color: #D1E2FE;
+}
+
+
+#menuicons {
+	margin-top: 1em;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 0.5em;
+}
+
+
+ul {list-style-image: url(images/bull.png)}
+ul#press-list li {margin: 0 0 1em 0;}
+ul#invited-talks-list li {margin: 0 0 1em 0;}
+blockquote {margin-left: 6em;}
+p {  text-align: justify}
+a {color: #008BA4; text-decoration: none; }
+a:hover {	color: #8282FF; }
+img { border: 0 }
+h2 {
+	font-size: larger;
+	padding-left: 20px;
+	background-repeat: no-repeat;
+	background-image: url(images/sipke.png);
+	font-family: Galdeano, "Georgia, "Times New Roman", Times, serif;
+	border-bottom-width: 0.5px;
+	border-bottom-style: none;
+}
+
+#modified {
+	font-size: smaller;
+	text-align:right; 
+        margin-right: -2em;
+}
+
+
+#supertop {
+	background: url("images/covtp.png") repeat-x;
+	height:34px; 
+	margin-left: 3em;
+	margin-right: 3em;
+}
+
+#supertoplt {
+	height:30px; 
+	min-width: 62em;
+	max-width: 75em;
+	width: 80%;  
+	margin-left: auto;
+	margin-right: auto; 
+	background-image: url("images/covlttp.png"); 
+}
+
+#supertoprt {
+	background-image: url("images/covrttp.png");
+	background-position: right bottom;
+	background-repeat: repeat-y; 
+}
+
+
+
+#top {
+	background-color: black;
+	color: white;
+	margin-left:16px;
+	margin-right: 16px;
+	background: url("images/bluebw.png") repeat-x;
+	height:35px;
+	letter-spacing:2px;
+	padding-top: 0.4em;
+}
+
+
+#lt {
+	min-width: 62em;
+	max-width: 75em;
+	background-color: white;		
+	color: #444444;
+	width: 80%;
+	margin-left:auto;
+	margin-right: auto;
+	background-image: url("images/covlt.png");
+	background-position: left top;
+	background-repeat: repeat-y;
+}
+
+#rt {
+	background-image: url("images/covrt.png");
+	background-position: right top;
+	background-repeat: repeat-y;
+}
+
+#down {
+	background: url("images/covdn.png") repeat-x;
+	height:34px;
+	margin-left: 3em;
+	margin-right: 3em;
+	letter-spacing:2px;
+	padding-top: 0em;
+
+}
+
+#downlt {	
+	min-width: 62em;
+	max-width: 75em;
+	width: 80%;  
+	margin-left:auto;
+	margin-right: auto; 
+	background-image: url("images/covltdn.png");
+	background-position: left top;
+	background-repeat: repeat-y;
+}
+
+#downrt {
+	background-image: url("images/covrtdn.png");
+	background-position: right top;
+	background-repeat: repeat-y;
+}
+
+
+#content {
+	padding-top: 1em;
+	margin-left: 10em;
+	padding-right: 3em;
+}
+
+#menu {
+	float: left;
+	padding-left: 2em;
+	margin-right: auto;
+	padding-top: 1em;
+}
+
+
+div#menu  .menulink a {
+	display: block;
+	text-decoration: none;
+	border-right-color: black;
+	border-right-width: 1px;
+	border-right-style: dashed
+}
+
+
+
+
+#content a[href^="https://"] 
+{
+	background-color: transparent;
+	background-image: url(images/external.png);
+	background-repeat: no-repeat;
+	background-position:right;
+	background-attachment: scroll; 
+	padding-right: 13px;
+}
+ 
+
+#content a[href$=".pdf"] {  
+	padding-right: 1.7em;
+	background-image: url(images/pdf.png);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+/*
+#content a[href^="http://"]  
+{
+	background-color: transparent;
+	background-image: url(images/external.png);
+	background-repeat: no-repeat;
+	background-position:right;
+	background-attachment: scroll; 
+	padding-right: 13px;
+}
+*/
+
+a[href$="mov"] {  
+	padding-right: 1.5em;
+	background-image: url(images/video.png);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+
+
+a[href$="bib"] {  
+	padding-right: 2em;
+	background-image: url(images/bib.png);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+
+.nadpis {
+	vertical-align: middle;
+	padding-left: 1.5em;
+	letter-spacing: 1px;
+	font-size: small;
+	font-weight: bold;
+}
+
+.male {	 FONT-SIZE: xx-small; }
+.lighternote {	 font-size: xx-small; }
+.note {	 font-size: xx-small; }
+.lighter {color: gray}
+.done { color: green }
+
+.servicePC {color: darkgreen; font-weight: bold;} 
+.serviceOC {color: peru; font-weight: bold;}
+.serviceCR {color: cadetblue; font-weight: bold;}
+
+/* taken courses pages */
+.groupdescription { text-align:right; background-color: #CCCCCC}
+.classname {	font-weight: bold; background-color: #F4F4F4;}
+.credits {  text-align:center;  font-weight:bold}
+.dayofweek {	height: 25px;	width: 75px; border-style: dotted; text-align:center}
+.timestart {	width: 40px;	height: 25px;}
+.timecell {	height: 25px;	width: 75px; border-style: dotted; text-align:center}
+.cvika  { 	height: 25px;	width: 75px; background-color: #EEEEEE}
+.projectname { }
+.projetdate {  text-align:center}
+.projectype {  }
+.projectlang {  text-align:center}
+.projectfield  { font-weight: bold; }
+
+
+/* splash page */
+#splash 
+{	margin-top: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+
+}
+
+/* intro page */
+#valkomen {	float: right;margin-right: 5em;}
+.right_images {float: right; margin-right: 0em;}
+
+/* research page */
+/* .publications-list {line-height: 1.2em} */
+.publications-list li { padding-bottom: 0.5em}
+#starred-publications-list li {	list-style-image: url(images/star_publication_icon.gif); padding-bottom: 0.5em}
+#publications-list li {	list-style-image: url(images/icon_pub.gif); padding-bottom: 0.5em}
+#presentations-list li {list-style-image: url(images/icon_presentation.png); padding-bottom: 0.5em }
+.research-projects li {	padding-bottom: 1em }
+
+.conference-shortcut { text-decoration:underline}
+.conference-shortcut-more { text-decoration:underline; color:gray;}
+.citation-count {color: green;  font-size: smaller;}
+
+
+/*
+#flickr {
+	float: right;
+	margin-right: 3em;
+	margin-top: 1em;
+}
+*/
+
+/*teaching pages*/
+.command {font-family: "Courier New", courier, mono, serif;}
+.switch {	font-weight: bold;	color: #CC9900;}
+
+
+/* auxiliary */
+.centered table{
+	text-align:center;
+	margin-left: auto;
+	margin-right: auto
+}
+
+
+.centrum {
+	margin-left: auto;
+	margin-right: auto
+}
+
+.on-the-right {
+	margin-left: auto;
+	margin-right: 0;
+    padding-left: 1em;	
+	float:right
+   
+}
+
+
+
+.centered {
+	text-align:center
+}
