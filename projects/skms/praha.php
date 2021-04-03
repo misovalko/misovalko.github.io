@@ -1,0 +1,1 @@
+<? header("location:http://kms.sturak.sk/debata.php?nazov=praha"); ?>

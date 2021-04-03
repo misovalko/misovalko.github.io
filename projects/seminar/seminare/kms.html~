@@ -1,0 +1,62 @@
+<html><!-- #BeginTemplate "/Templates/info.dwt" -->
+<head>
+<!-- #BeginEditable "doctitle" --> 
+<title>info</title>
+<!-- #EndEditable --> 
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1250">
+<link rel="stylesheet" href="../seminar.css">
+<base target="_top">
+</head>
+
+<body bgcolor="#FFFFFF">
+<br>
+<table width="100%" border="0" cellspacing="0">
+  <tr> 
+    <td colspan="3" bgcolor="#FAFAFA"> 
+      <h1><b> <!-- #BeginEditable "nazov" --><b><font color="#009900">K</font>MS</b><!-- #EndEditable --></b></h1>
+    </td>
+  </tr>
+  <tr> 
+    <td colspan="3" bgcolor="#F2F2F2"><b><!-- #BeginEditable "cely%20nazov" -->Korešpondenčný 
+      matematický seminár<!-- #EndEditable --> </b> </td>
+  </tr>
+  <tr> 
+    <td bgcolor="#FAFAFA"> 
+      <h5><b> </b><br>
+        <!-- #BeginEditable "popis" -->Od jesene 2002 slovenske stredoskolske 
+        matematicke seminare <a href="http://skms.sturak.sk">SKMS</a> a <a href="http://www.bkms.sk">BKMS</a> 
+        spolu so skupinou veducich <a href="http://www.strom.sk">STROM</a>u posobiacich 
+        v Bratislave spajaju svoje usilie a pustaju sa do organizovania jedneho 
+        seminara KMS. Tento seminar bude organizovany z Bratislavy tymi istymi 
+        ludmi, ktori doteraz organizovali doterajsie seminare. Bude mat dve kategorie, 
+        ALFA a BETA, pre zacinajucich a pokrocilych riesitelov, ktorych forma 
+        bude v principe rovnaka ako doterajsia forma seminarov. Verime, ze vytvorenim 
+        kategorie ALFA sa nam podari spristupnit seminar aj pre tych, pre ktorych 
+        boli doterajsie ulohy prilis narocne, malo zaujimave, alebo pripadne vidina 
+        sustredenia prilis nerealna. Vytvorenie kategorie BETA moze poskytnut 
+        skusenejsim riesitelom primeranejsie a zaujimavejsie ulohy ako doteraz, 
+        a zaroven im moze pomoct zo vseobecneho motivacneho hladiska. Tento seminar 
+        by mal byt v buducnosti pokracovanimsj seminara KS SK MO.<!-- #EndEditable --><br>
+        <br>
+      </h5>
+    </td>
+    <td width="8" bgcolor="#fafafa">&nbsp;</td>
+    <td> 
+	    <div align="right"><!-- #BeginEditable "logo" --><img src="http://kms.sk/img/logo/kms_olejnik_b.gif" width="200"><!-- #EndEditable --></div>
+    </td>
+  </tr>
+  <tr> 
+    <td colspan="3" bgcolor="#F2F2F2"><a href="http://www.strom.sk"> </a> <b>www:</b> 
+      <!-- #BeginEditable "www" --><b> </b><a href="http://kms.sturak.sk">http://kms.sturak.sk</a><!-- #EndEditable --></td>
+  </tr>
+  <tr> 
+    <td colspan="3" bgcolor="#FAFAFA"> 
+      <p><br>
+      <address><b> Adresa:</b> <!-- #BeginEditable "adresa" --> KMS, Katedra základov 
+      a didaktiky matematiky, <br>
+      MFF UK, Mlynská Dolina 842 48, Bratislava<!-- #EndEditable --></address>
+    </td>
+  </tr>
+</table>
+</body>
+<!-- #EndTemplate --></html>
