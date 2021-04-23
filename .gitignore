@@ -2,3 +2,5 @@
 *.aux
 *.log
 projects/courses/graphsML/20192020/mlgraphs6.pdf
+.DS_Store
+cv/long-cv-michal-valko.synctex.gz
