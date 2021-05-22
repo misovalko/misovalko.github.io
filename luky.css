@@ -1,4 +1,4 @@
-/* michal valko */
+*/* michal valko */
 /* page layout */
 
 .bibtitle { font-style:italic; }
@@ -302,7 +302,11 @@ a[href$="bib"] {
 }
 
 
-
 .centered {
 	text-align:center
+}
+
+.pressphoto {
+	border:1px solid black;
+	height: 150px
 }
