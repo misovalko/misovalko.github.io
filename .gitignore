@@ -13,3 +13,5 @@ cv/long-cv-michal-valko.synctex.gz
 *.gz
 *.gz
 .DS_Store
+.DS_Store
+*.gz
